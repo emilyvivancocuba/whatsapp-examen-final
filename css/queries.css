@@ -1,0 +1,42 @@
+@media screen and (min-width: 1320px){
+	.main {
+	    width: 1212px;
+	}
+}
+@media screen and (min-width: 1200px){
+	.main {
+	    width: 1118px;
+	}
+}
+@media screen and (max-width: 1200px){
+  .main {
+      top: 0px;
+      border-radius: 0px;
+  }
+}
+@media screen and (max-height: 500px){
+	.main {
+	    min-height: 500px;
+	}
+  .contact-zone{
+  height: 376px;
+  }
+  .bg-panel{
+  height: 379px;
+  }
+}
+@media screen and (max-width: 760px){
+  .main {
+      min-width: 760px;
+  }
+}
+@media screen and (max-width: 910px){
+  .col-4{
+    width: 310px;
+  }
+  .col-8{
+    width: calc(100% - 310px);
+  }
+}
+
+
