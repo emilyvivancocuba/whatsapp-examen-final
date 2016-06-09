@@ -103,7 +103,7 @@ function hora_peru(){
    	minutos=datos.getMinutes();
 
    	if (horas<10) {horas='0'+horas.string();}
-   	if (minutos<10) {minutos='0'+minutos.string();}
+   	if (minutos<10) {minutos='0'+minutos;}
 }
 
 function doMsg(texto){
